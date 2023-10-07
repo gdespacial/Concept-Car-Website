@@ -35,7 +35,7 @@ header{
 header .new-logo{
   display:flex;
  flex-direction:column;
-    max-width:100%;
+ max-width:100%;
  
 }
 
@@ -202,15 +202,12 @@ footer .container{
 
     max-width:35px; 
     max-height: auto;
-    background-color:#2D2D2D;
+    background-color: white;
    border-radius: 50%;
    transition: transform 0.2s;
-   
-   
- 
-    
-  }
 
+}
+   
    a.maps {
     text-decoration: none;
     color:black;
@@ -219,6 +216,10 @@ footer .container{
   a.maps:hover{
     color:#321d9c;
   }
+   
+ 
+    
+  
 
   .logos:hover{
     transform: scale(1.1);
@@ -303,7 +304,7 @@ footer .container{
                 justify-content: space-evenly;
             }
 
-               #hero{
+            #hero{
                 image-orientation:flip;
                background-size: 90% 100%;
                background-color:black;
@@ -311,11 +312,6 @@ footer .container{
               image-rendering: optimizeQuality;
               height:135vh;
               }
-              
-             
-               
-
-            }
         
             #hero h1{
                 font-size:4em;
