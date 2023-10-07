@@ -210,6 +210,15 @@ footer .container{
     
   }
 
+   a.maps {
+    text-decoration: none;
+    color:black;
+  }
+
+  a.maps:hover{
+    color:#321d9c;
+  }
+
   .logos:hover{
     transform: scale(1.1);
     }
